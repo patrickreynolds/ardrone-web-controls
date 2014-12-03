@@ -13,32 +13,42 @@
     display: inline-block;
 }
 
+.trick-button {
+    height: 20px;
+    width: 100px;
+    margin: 10px 0px;
+    cursor: pointer;
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+
 #connect {
-    background: url('connect.png') center no-repeat;
+    background: url('../images/connect.png') center no-repeat;
 }
 
 #takeoff {
-    background: url('takeoff.jpeg') center no-repeat;
+    background: url('../images/takeoff.jpeg') center no-repeat;
 }
 
 #calibrate {
-    background: url('calibrate.png') center no-repeat;
+    background: url('../images/calibrate.png') center no-repeat;
 }
 
 #land {
-    background: url('land.jpeg') center no-repeat;
+    background: url('../images/land.jpeg') center no-repeat;
 }
 
 #disconnect {
-    background: url('disconnect.png') center no-repeat;
+    background: url('../images/disconnect.png') center no-repeat;
 }
 
 #control-pad {
     height: 600px;
     width: 600px;
     margin: 0 auto;
+    margin-top: 40px;
     border: 1px solid black;
-    background: url('guide.gif') center no-repeat;
+    background: url('../images/guide.gif') center no-repeat;
 }
 
 #drone {
@@ -46,7 +56,7 @@
     width: 200px;
     margin: 194px;
     position: absolute;
-    background: url('ardrone.png') center no-repeat;
+    background: url('../images/ardrone.png') center no-repeat;
 }
 
 #tricks {
