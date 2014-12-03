@@ -26,7 +26,7 @@ io.on('connection', function(socket){
     socket.on('calibrate', function() {
         console.log('Calibrating!')
         if (drone.client) {
-            drone.client.calibrate()
+            drone.client.calibrate(0)
         }
     })
 
