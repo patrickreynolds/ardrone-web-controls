@@ -1,0 +1,17 @@
+{
+  "name": "ardrone-web-controls",
+  "version": "0.0.1",
+  "description": "Control dashboard for piloting an AR-Drone 2.0 fromt he web",
+  "author": "Patrick Reynolds <patrickscottreynolds@gmail.com>",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "dependencies": {
+    "ar-drone": "^0.3.3",
+    "express": "^4.10.4",
+    "nodemon": "^1.2.1",
+    "socket.io": "^1.2.1"
+  },
+  "private": true
+}
