@@ -1,0 +1,59 @@
+#control-panel {
+    width: 650px;
+    height: 100px;
+    text-align: center;
+    margin:0 auto;
+}
+
+.control-button {
+    height: 100px;
+    width: 100px;
+    margin: 10px 0px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#connect {
+    background: url('connect.png') center no-repeat;
+}
+
+#takeoff {
+    background: url('takeoff.jpeg') center no-repeat;
+}
+
+#calibrate {
+    background: url('calibrate.png') center no-repeat;
+}
+
+#land {
+    background: url('land.jpeg') center no-repeat;
+}
+
+#disconnect {
+    background: url('disconnect.png') center no-repeat;
+}
+
+#control-pad {
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    background: url('guide.gif') center no-repeat;
+}
+
+#drone {
+    height: 200px;
+    width: 200px;
+    margin: 194px;
+    position: absolute;
+    background: url('ardrone.png') center no-repeat;
+}
+
+#tricks {
+    width: 650px;
+    height: 50px;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Flight Control</title>
+        <link rel="stylesheet" type="text/css" href="public/style.css">
+    </head>
+    <body>
+        <div id="control-panel">
+            <div class="control-button" id='connect'></div>
+            <div class="control-button" id='takeoff'></div>
+            <div class="control-button" id='calibrate'></div>
+            <div class="control-button" id='land'></div>
+            <div class="control-button" id='disconnect'></div>
+        </div>
+        
+        <div id="tricks">
+            <div class="control-button" id='yaw-dance'>Yaw Dance</div>
+            <div class="control-button" id='wave'>Wave</div>
+            <div class="control-button" id='flip-behind'>Flip Behind</div>
+            <div class="control-button" id='flip-right'>Flip Right</div>
+        </div>
+
+        <div id="control-pad">
+            <div id="drone"></div>
+        </div>
+
+        <script src="public/socket.io-1.2.1.js"></script>
+        <script src="public/jquery-1.11.1.js"></script>
+        <script src="public/lodash.min.js"></script>
+        <script src="public/pointerevents.dev.js"></script>
+        <script src="public/sistine.js"></script>
+        <script src="public/flightcontrol.js"></script>
+    </body>
+</html>
